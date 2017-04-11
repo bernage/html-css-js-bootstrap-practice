@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sexy background color!</title>
+		<link rel="stylesheet" type="text/css" href="./css/app.css">
+	</head>
+	<body>
+	<p class="custom-font-style">Helllo </p>
+	<div id="container-1">
+	  <p>noooo</p>
+	</div>
+		<h3>Favorite Football Teams</h3>
+			<ol>
+				<li>The Hawthorn Football Club</li>	
+				<li>San Franscisco 49ers</li>
+				<li>Barcelona FC</li>
+			</ol>		
+	<button class="custom-button-style" id="button-1">Click on me</button>		
+	<button class="hide-button-style">hide me</button>
+	<script src="./js/jquery-3.2.0.min.js"></script>	
+	<script type="text/javascript">
+		$( document ).ready(function() {
+    		console.log( "ready!" );
+    		var containerElement = $("#container-1");
+    		$("#button-1").click(function(event){
+               containerElement.fadeIn("slow");
+    		});
+
+            $(".hide-button-style").click(function(event){	
+               containerElement.fadeOut("slow");
+            });
+		}); 
+    </script>
+	</body>
+</html>

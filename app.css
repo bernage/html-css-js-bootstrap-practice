@@ -1,0 +1,28 @@
+h3 {
+	color:green;
+	font-size:32px;
+}
+
+.custom-font-style {
+    color:red;
+	font-size:19px;
+
+}
+
+.custom-button-style {
+	width:100px;
+	height:50px;
+	border:1px solid #000000;
+	background-color: #DDDDDD;
+}
+
+#container-1 {
+	display: none;
+	background-color: yellow;
+	width:100%;	
+	height:50px;
+}
+
+#container-1 > p {
+	color:blue;
+}
